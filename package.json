@@ -2,6 +2,7 @@
   "name": "habib-yt-2026-ts",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,6 +18,8 @@
   },
   "devDependencies": {
     "typescript": "^5.6.0",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.7",
     "postcss": "^8.5.1",
     "autoprefixer": "^10.4.20"
   }
